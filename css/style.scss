@@ -1,0 +1,99 @@
+$color-primary: #010101;
+$color-primary-light: #eeeeee;
+$border-radius-primary: 5px;
+$default-font-family: Ubuntu, FontAwesome, Lato, sans-serif;
+$default-font-size: 16px;
+$default-padding: 10px;
+
+html {
+    font-family: $default-font-family;
+    font-size: $default-font-size;
+    height: 100%;
+    
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    color: $color-primary;
+}
+
+.wrapper {
+	height: 100%;
+    background-color: $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card {
+	background-color: $color-primary-light;
+    color: $color-primary;
+    border-radius: $border-radius-primary;
+    padding: $default-padding;
+//    max-height: 300px;
+    max-width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+//    flex-flow: column;
+
+}
+
+.button {
+	padding: $default-padding;
+    border-radius: $border-radius-primary;
+    background-color: $color-primary;
+    color: $color-primary-light;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.card-footer {
+    width: 100%;
+    padding-top: 1rem;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .share {
+	    font-size: 2rem;
+    }
+}
+
+.quote {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+//    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+	.quote-from {
+        padding-top: 1rem;
+        font-size: 1rem;
+	    margin-left: auto;
+        &:before {
+            content: "--";
+        }
+    }
+}
+
+.quote-text:before {
+	content: "\f10d\ ";
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity .5s;
+}

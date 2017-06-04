@@ -1,2 +1,89 @@
+/* line 8, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+html {
+  font-family: Ubuntu, FontAwesome, Lato, sans-serif;
+  font-size: 16px;
+  height: 100%; }
+
+/* line 15, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+/* line 18, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+body {
+  margin: 0;
+  height: 100%; }
+
+/* line 23, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+a {
+  color: #010101; }
+
+/* line 27, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.wrapper {
+  height: 100%;
+  background-color: #010101;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 36, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.card {
+  background-color: #eeeeee;
+  color: #010101;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 600px;
+  display: flex;
+  flex-flow: row wrap; }
+
+/* line 49, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #010101;
+  color: #eeeeee; }
+  /* line 54, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+  .button:hover {
+    cursor: pointer; }
+
+/* line 59, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.card-footer {
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  /* line 65, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+  .card-footer .share {
+    font-size: 2rem; }
+
+/* line 70, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.quote {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  font-size: 1.6rem; }
+  /* line 77, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+  .quote .quote-from {
+    padding-top: 1rem;
+    font-size: 1rem;
+    margin-left: auto; }
+    /* line 81, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+    .quote .quote-from:before {
+      content: "--"; }
+
+/* line 87, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.quote-text:before {
+  content: "\f10d\ "; }
+
+/* line 91, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.fade-in {
+  opacity: 1;
+  transition: opacity .5s; }
+
+/* line 96, /home/kennedy/Documents/FreeCodeCamp.org/staging/random-bible-quotes/css/style.scss */
+.fade-out {
+  opacity: 0;
+  transition: opacity .5s; }
 
 /*# sourceMappingURL=style.css.map */
